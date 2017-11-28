@@ -1,0 +1,927 @@
+{
+  "is_wiki_activated": true,
+  "roles": [
+    {
+      "permissions": [
+        "add_issue",
+        "add_task",
+        "add_us",
+        "add_wiki_link",
+        "add_wiki_page",
+        "comment_epic",
+        "comment_issue",
+        "comment_task",
+        "comment_us",
+        "delete_task",
+        "delete_wiki_link",
+        "delete_wiki_page",
+        "modify_epic",
+        "modify_issue",
+        "modify_task",
+        "modify_us",
+        "modify_wiki_page",
+        "view_epics",
+        "view_issues",
+        "view_milestones",
+        "view_tasks",
+        "view_us",
+        "view_wiki_links",
+        "view_wiki_pages",
+        "view_project"
+      ],
+      "id": 1389371,
+      "computable": true,
+      "name": "DEV",
+      "slug": "back",
+      "project_id": 227853,
+      "order": 40
+    },
+    {
+      "permissions": [
+        "add_issue",
+        "modify_issue",
+        "delete_issue",
+        "view_issues",
+        "add_milestone",
+        "modify_milestone",
+        "delete_milestone",
+        "view_milestones",
+        "view_project",
+        "add_task",
+        "modify_task",
+        "delete_task",
+        "view_tasks",
+        "add_us",
+        "modify_us",
+        "delete_us",
+        "view_us",
+        "add_wiki_page",
+        "modify_wiki_page",
+        "delete_wiki_page",
+        "view_wiki_pages",
+        "add_wiki_link",
+        "delete_wiki_link",
+        "view_wiki_links",
+        "view_epics",
+        "add_epic",
+        "modify_epic",
+        "delete_epic",
+        "comment_epic",
+        "comment_us",
+        "comment_task",
+        "comment_issue",
+        "comment_wiki_page"
+      ],
+      "id": 1389372,
+      "computable": false,
+      "name": "Product Owner",
+      "slug": "product-owner",
+      "project_id": 227853,
+      "order": 50
+    },
+    {
+      "permissions": [
+        "add_issue",
+        "modify_issue",
+        "delete_issue",
+        "view_issues",
+        "view_milestones",
+        "view_project",
+        "view_tasks",
+        "view_us",
+        "modify_wiki_page",
+        "view_wiki_pages",
+        "add_wiki_link",
+        "delete_wiki_link",
+        "view_wiki_links",
+        "view_epics",
+        "comment_epic",
+        "comment_us",
+        "comment_task",
+        "comment_issue",
+        "comment_wiki_page"
+      ],
+      "id": 1389373,
+      "computable": false,
+      "name": "Stakeholder",
+      "slug": "stakeholder",
+      "project_id": 227853,
+      "order": 60
+    },
+    {
+      "permissions": [
+        "add_issue",
+        "add_milestone",
+        "add_task",
+        "add_us",
+        "add_wiki_link",
+        "add_wiki_page",
+        "comment_issue",
+        "comment_task",
+        "comment_us",
+        "delete_issue",
+        "delete_milestone",
+        "delete_task",
+        "delete_us",
+        "delete_wiki_link",
+        "delete_wiki_page",
+        "modify_issue",
+        "modify_milestone",
+        "modify_task",
+        "modify_us",
+        "modify_wiki_page",
+        "view_epics",
+        "view_issues",
+        "view_milestones",
+        "view_tasks",
+        "view_us",
+        "view_wiki_links",
+        "view_wiki_pages",
+        "view_project"
+      ],
+      "id": 1390618,
+      "computable": true,
+      "name": "COORDINATOR",
+      "slug": "qa-500",
+      "project_id": 227853,
+      "order": 61
+    },
+    {
+      "permissions": [
+        "add_issue",
+        "add_task",
+        "add_wiki_link",
+        "add_wiki_page",
+        "comment_issue",
+        "comment_task",
+        "delete_wiki_link",
+        "delete_wiki_page",
+        "modify_issue",
+        "modify_task",
+        "modify_wiki_page",
+        "view_issues",
+        "view_milestones",
+        "view_tasks",
+        "view_us",
+        "view_wiki_links",
+        "view_wiki_pages",
+        "view_project"
+      ],
+      "id": 1390619,
+      "computable": false,
+      "name": "CS",
+      "slug": "qa-501",
+      "project_id": 227853,
+      "order": 62
+    }
+  ],
+  "videoconferences": null,
+  "default_points": 2741620,
+  "total_memberships": 8,
+  "is_private": true,
+  "total_fans_last_year": 0,
+  "id": 227853,
+  "is_out_of_owner_limits": false,
+  "modified_date": "2017-10-18T05:33:36.578Z",
+  "milestones": [
+    {
+      "name": "M2_Sprint41",
+      "slug": "m2_sprint41-1",
+      "id": 156739,
+      "closed": true
+    },
+    {
+      "name": "M2_Sprint42",
+      "slug": "m2_sprint42",
+      "id": 158079,
+      "closed": true
+    },
+    {
+      "name": "M2_Sprint43",
+      "slug": "m2_sprint43",
+      "id": 158938,
+      "closed": true
+    },
+    {
+      "name": "M2_Sprint44",
+      "slug": "m2_sprint44",
+      "id": 160204,
+      "closed": true
+    },
+    {
+      "name": "M2_Sprint45",
+      "slug": "m2_sprint45",
+      "id": 161385,
+      "closed": true
+    },
+    {
+      "name": "M2_Sprint46",
+      "slug": "m2_sprint46",
+      "id": 162523,
+      "closed": false
+    }
+  ],
+  "name": "1Day M3",
+  "default_us_status": 1357142,
+  "task_statuses": [
+    {
+      "color": "#999999",
+      "id": 1141899,
+      "is_closed": false,
+      "name": "New",
+      "slug": "new",
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "color": "#729fcf",
+      "id": 1141900,
+      "is_closed": false,
+      "name": "In Progress",
+      "slug": "in-progress",
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "color": "#3465a4",
+      "id": 1141916,
+      "is_closed": false,
+      "name": "For CI Testing",
+      "slug": "for-ci-testing",
+      "project_id": 227853,
+      "order": 2
+    },
+    {
+      "color": "#ffcc00",
+      "id": 1141901,
+      "is_closed": false,
+      "name": "For QA Testing",
+      "slug": "for-qa-testing",
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "color": "#8ae234",
+      "id": 1141922,
+      "is_closed": false,
+      "name": "For PO Verification",
+      "slug": "for-po-verification",
+      "project_id": 227853,
+      "order": 5
+    },
+    {
+      "color": "#669900",
+      "id": 1141902,
+      "is_closed": true,
+      "name": "Done",
+      "slug": "done",
+      "project_id": 227853,
+      "order": 6
+    },
+    {
+      "color": "#4e9a06",
+      "id": 1172453,
+      "is_closed": true,
+      "name": "Deferred",
+      "slug": "deferred",
+      "project_id": 227853,
+      "order": 7
+    }
+  ],
+  "us_statuses": [
+    {
+      "color": "#999999",
+      "id": 1357142,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "New",
+      "slug": "new",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "color": "#888a85",
+      "id": 1366127,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "BUGS ESCALATED",
+      "slug": "bugs-escalated",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "color": "#888a85",
+      "id": 1359652,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "BACKLOG",
+      "slug": "backlog",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 2
+    },
+    {
+      "color": "#729fcf",
+      "id": 1357143,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "Next Sprint",
+      "slug": "next-sprint",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "color": "#3465a4",
+      "id": 1358423,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "Sprint To Do",
+      "slug": "sprint-to-do",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 4
+    },
+    {
+      "color": "#204a87",
+      "id": 1357168,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "Sprint Done",
+      "slug": "sprint-done",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 6
+    },
+    {
+      "color": "#fcc000",
+      "id": 1357145,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "For Pre-Deployment Testing",
+      "slug": "for-pre-deployment-testing",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 7
+    },
+    {
+      "color": "#8ae234",
+      "id": 1357169,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "For Deployment",
+      "slug": "for-deployment",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 8
+    },
+    {
+      "color": "#669900",
+      "id": 1357146,
+      "is_archived": false,
+      "is_closed": true,
+      "name": "Deployed",
+      "slug": "deployed",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 9
+    },
+    {
+      "color": "#999999",
+      "id": 1361685,
+      "is_archived": false,
+      "is_closed": false,
+      "name": "Deferred",
+      "slug": "deferred",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 10
+    },
+    {
+      "color": "#5c3566",
+      "id": 1357147,
+      "is_archived": true,
+      "is_closed": true,
+      "name": "Archived",
+      "slug": "archived",
+      "wip_limit": null,
+      "project_id": 227853,
+      "order": 11
+    }
+  ],
+  "looking_for_people_note": "",
+  "blocked_code": null,
+  "is_fan": false,
+  "epic_statuses": [
+    {
+      "color": "#999999",
+      "id": 998740,
+      "is_closed": false,
+      "name": "New",
+      "slug": "new",
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "color": "#ff9900",
+      "id": 998742,
+      "is_closed": false,
+      "name": "In progress",
+      "slug": "in-progress",
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "color": "#729fcf",
+      "id": 998741,
+      "is_closed": false,
+      "name": "TO DO",
+      "slug": "to-do",
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "color": "#fcc000",
+      "id": 998743,
+      "is_closed": false,
+      "name": "Ready for test",
+      "slug": "ready-for-test",
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "color": "#669900",
+      "id": 998744,
+      "is_closed": true,
+      "name": "Done",
+      "slug": "done",
+      "project_id": 227853,
+      "order": 4
+    }
+  ],
+  "is_looking_for_people": false,
+  "default_issue_type": 688679,
+  "default_task_status": 1141899,
+  "default_issue_status": 1597499,
+  "is_watcher": true,
+  "my_permissions": [
+    "delete_wiki_link",
+    "view_issues",
+    "modify_task",
+    "view_epics",
+    "add_task",
+    "add_us",
+    "comment_us",
+    "modify_us",
+    "view_milestones",
+    "view_us",
+    "comment_epic",
+    "delete_task",
+    "add_wiki_link",
+    "modify_issue",
+    "view_wiki_links",
+    "modify_wiki_page",
+    "modify_epic",
+    "add_issue",
+    "view_project",
+    "add_wiki_page",
+    "comment_task",
+    "comment_issue",
+    "view_tasks",
+    "delete_wiki_page",
+    "view_wiki_pages"
+  ],
+  "is_kanban_activated": true,
+  "total_closed_milestones": 5,
+  "is_backlog_activated": true,
+  "epic_custom_attributes": null,
+  "anon_permissions": [],
+  "slug": "iansr-1day-m3-1",
+  "created_date": "2017-10-16T13:44:23.152Z",
+  "default_epic_status": 998740,
+  "videoconferences_extra_data": null,
+  "tags_colors": {
+    "zenrooms": null,
+    "deployment": "#f57900",
+    "prod": null,
+    "security": null,
+    "platform": null,
+    "infra": null,
+    "for review": null,
+    "priority": "#ff69b4"
+  },
+  "userstory_custom_attributes": null,
+  "logo_small_url": null,
+  "members": [
+    {
+      "is_active": true,
+      "color": "#a8b248",
+      "id": 259985,
+      "gravatar_id": "7f8b5d5f9449e1430e55172169c75d68",
+      "full_name_display": "Angie Tuscano",
+      "photo": null,
+      "username": "Angiet",
+      "role_name": "CS",
+      "role": 1390619,
+      "full_name": "Angie Tuscano"
+    },
+    {
+      "is_active": true,
+      "color": "#cdf3a5",
+      "id": 257086,
+      "gravatar_id": "4e26d10acba2a0a4071467d95e2d91be",
+      "full_name_display": "Ian Reyes",
+      "photo": "https://media.taiga.io/user/5/8/4/c/65eaa1af33ef6af63ad78434157f34847ed3b70bf3672c536db58f833a51/ianr_dec2015e.png.80x80_q85_crop.jpg",
+      "username": "iansr",
+      "role_name": "Product Owner",
+      "role": 1389372,
+      "full_name": "Ian Reyes"
+    },
+    {
+      "is_active": true,
+      "color": "#f19cbd",
+      "id": 257400,
+      "gravatar_id": "e47b46a5a917c816a616a7ac8e6f7b7d",
+      "full_name_display": "James Saballegue",
+      "photo": "https://media.taiga.io/user/3/6/6/5/303344a2341436e153403457a3fdcebc85e7ef1642e7001a008b94cfc552/0731a827-d651-4a1e-86e9-a68a011cc590_sphere_01.png.80x80_q85_crop.png",
+      "username": "metalvexis",
+      "role_name": "DEV",
+      "role": 1389371,
+      "full_name": "James Saballegue"
+    },
+    {
+      "is_active": true,
+      "color": "#bedb1e",
+      "id": 257433,
+      "gravatar_id": "63dbec97c6a8c80cfea91d81b7b1b2df",
+      "full_name_display": "Jasper John Cinatad",
+      "photo": "https://media.taiga.io/user/d/3/0/4/43305a1a16c069a68f69d3d04597b169e47caf7515689a887c34a061fc9a/gravatar.jpeg.80x80_q85_crop.jpg",
+      "username": "fallen90",
+      "role_name": "DEV",
+      "role": 1389371,
+      "full_name": "Jasper John Cinatad"
+    },
+    {
+      "is_active": true,
+      "color": "#0ea62c",
+      "id": 258089,
+      "gravatar_id": "86ccca875e584c5fbf9d777288be8605",
+      "full_name_display": "Kevin Bennett",
+      "photo": null,
+      "username": "kevbuk",
+      "role_name": "Product Owner",
+      "role": 1389372,
+      "full_name": "Kevin Bennett"
+    },
+    {
+      "is_active": true,
+      "color": "#d6cb72",
+      "id": 260266,
+      "gravatar_id": "10f84ab09c008a990a077875db8ce5ea",
+      "full_name_display": "Mei Arnas",
+      "photo": null,
+      "username": "MeiA",
+      "role_name": "CS",
+      "role": 1390619,
+      "full_name": "Mei Arnas"
+    },
+    {
+      "is_active": true,
+      "color": "#fca07e",
+      "id": 258940,
+      "gravatar_id": "49f24d781662631d02cc74bc7b8657fb",
+      "full_name_display": "Michelle",
+      "photo": "https://media.taiga.io/user/b/7/a/8/253b50504cf579019d3fc2b4fb936c1e45c036eab83df66f466999481d30/pic-of-me3.png.80x80_q85_crop.png",
+      "username": "mlicup",
+      "role_name": "COORDINATOR",
+      "role": 1390618,
+      "full_name": "Michelle"
+    },
+    {
+      "is_active": true,
+      "color": "#b1cd19",
+      "id": 258097,
+      "gravatar_id": "86df3d8d1beb875589d2381dcb60d0c5",
+      "full_name_display": "Richard Ward",
+      "photo": null,
+      "username": "richardw",
+      "role_name": "Stakeholder",
+      "role": 1389373,
+      "full_name": "Richard Ward"
+    }
+  ],
+  "is_issues_activated": true,
+  "totals_updated_datetime": "2017-11-28T11:26:33.421Z",
+  "description": "1Day Milestone 3",
+  "total_activity_last_year": 3204,
+  "default_priority": 685251,
+  "total_fans_last_month": 0,
+  "is_epics_activated": true,
+  "default_severity": 1138187,
+  "public_permissions": [],
+  "severities": [
+    {
+      "name": "Wishlist",
+      "color": "#d3d7cf",
+      "id": 1138185,
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "name": "Minor",
+      "color": "#d3d7cf",
+      "id": 1138186,
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "name": "Normal",
+      "color": "#888a85",
+      "id": 1138187,
+      "project_id": 227853,
+      "order": 2
+    },
+    {
+      "name": "High Impact Soon",
+      "color": "#fce94f",
+      "id": 1164392,
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "name": "High Impact",
+      "color": "#FFA500",
+      "id": 1138188,
+      "project_id": 227853,
+      "order": 4
+    },
+    {
+      "name": "Showstopper",
+      "color": "#CC0000",
+      "id": 1138189,
+      "project_id": 227853,
+      "order": 5
+    }
+  ],
+  "i_am_admin": false,
+  "owner": {
+    "is_active": true,
+    "id": 257086,
+    "gravatar_id": "4e26d10acba2a0a4071467d95e2d91be",
+    "username": "iansr",
+    "big_photo": "https://media.taiga.io/user/5/8/4/c/65eaa1af33ef6af63ad78434157f34847ed3b70bf3672c536db58f833a51/ianr_dec2015e.png.300x300_q85_crop.jpg",
+    "full_name_display": "Ian Reyes",
+    "photo": "https://media.taiga.io/user/5/8/4/c/65eaa1af33ef6af63ad78434157f34847ed3b70bf3672c536db58f833a51/ianr_dec2015e.png.80x80_q85_crop.jpg"
+  },
+  "total_milestones": 0,
+  "priorities": [
+    {
+      "name": "Low",
+      "color": "#d3d7cf",
+      "id": 685250,
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "name": "Normal",
+      "color": "#888a85",
+      "id": 685251,
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "name": "High",
+      "color": "#ad7fa8",
+      "id": 685252,
+      "project_id": 227853,
+      "order": 2
+    }
+  ],
+  "total_activity_last_month": 1904,
+  "tags": [],
+  "issue_statuses": [
+    {
+      "color": "#8C2318",
+      "id": 1597499,
+      "is_closed": false,
+      "name": "New",
+      "slug": "new",
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "color": "#89BAB4",
+      "id": 1597503,
+      "is_closed": false,
+      "name": "Needs Info",
+      "slug": "needs-info",
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "color": "#5E8C6A",
+      "id": 1597500,
+      "is_closed": false,
+      "name": "In progress",
+      "slug": "in-progress",
+      "project_id": 227853,
+      "order": 2
+    },
+    {
+      "color": "#88A65E",
+      "id": 1597501,
+      "is_closed": true,
+      "name": "For QA Testing",
+      "slug": "for-qa-testing",
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "color": "#4e9a06",
+      "id": 1628584,
+      "is_closed": false,
+      "name": "Waiting for Customer",
+      "slug": "waiting-for-customer",
+      "project_id": 227853,
+      "order": 4
+    },
+    {
+      "color": "#BFB35A",
+      "id": 1597502,
+      "is_closed": true,
+      "name": "Closed",
+      "slug": "closed",
+      "project_id": 227853,
+      "order": 5
+    },
+    {
+      "color": "#CC0000",
+      "id": 1597504,
+      "is_closed": true,
+      "name": "Rejected",
+      "slug": "rejected",
+      "project_id": 227853,
+      "order": 6
+    },
+    {
+      "color": "#666666",
+      "id": 1597505,
+      "is_closed": false,
+      "name": "Postponed",
+      "slug": "postponed",
+      "project_id": 227853,
+      "order": 7
+    }
+  ],
+  "total_activity_last_week": 407,
+  "issue_custom_attributes": null,
+  "points": [
+    {
+      "name": "?",
+      "id": 2741620,
+      "project_id": 227853,
+      "order": 1,
+      "value": null
+    },
+    {
+      "name": "0",
+      "id": 2741621,
+      "project_id": 227853,
+      "order": 2,
+      "value": 0
+    },
+    {
+      "name": "1/2",
+      "id": 2741622,
+      "project_id": 227853,
+      "order": 3,
+      "value": 0.5
+    },
+    {
+      "name": "1",
+      "id": 2741623,
+      "project_id": 227853,
+      "order": 4,
+      "value": 1
+    },
+    {
+      "name": "2",
+      "id": 2741624,
+      "project_id": 227853,
+      "order": 5,
+      "value": 2
+    },
+    {
+      "name": "3",
+      "id": 2741625,
+      "project_id": 227853,
+      "order": 6,
+      "value": 3
+    },
+    {
+      "name": "5",
+      "id": 2741626,
+      "project_id": 227853,
+      "order": 7,
+      "value": 5
+    },
+    {
+      "name": "8",
+      "id": 2741627,
+      "project_id": 227853,
+      "order": 8,
+      "value": 8
+    },
+    {
+      "name": "10",
+      "id": 2741628,
+      "project_id": 227853,
+      "order": 9,
+      "value": 10
+    },
+    {
+      "name": "13",
+      "id": 2741629,
+      "project_id": 227853,
+      "order": 10,
+      "value": 13
+    },
+    {
+      "name": "20",
+      "id": 2741630,
+      "project_id": 227853,
+      "order": 11,
+      "value": 20
+    },
+    {
+      "name": "40",
+      "id": 2741631,
+      "project_id": 227853,
+      "order": 12,
+      "value": 40
+    }
+  ],
+  "i_am_owner": false,
+  "notify_level": 1,
+  "task_custom_attributes": [
+    {
+      "id": 8373,
+      "type": "multiline",
+      "modified_date": "2017-10-17T06:30:06.504441+00:00",
+      "name": "bitbucket_commits",
+      "created_date": "2017-10-17T06:30:06.480348+00:00",
+      "project_id": 227853,
+      "description": "BitBucket Commits",
+      "order": 1
+    }
+  ],
+  "issue_types": [
+    {
+      "name": "Bug (Always Visible)",
+      "color": "#3465a4",
+      "id": 688679,
+      "project_id": 227853,
+      "order": 0
+    },
+    {
+      "name": "Bug (Occasionally Visible)",
+      "color": "#729fcf",
+      "id": 689141,
+      "project_id": 227853,
+      "order": 1
+    },
+    {
+      "name": "Enhancement",
+      "color": "#4e9a06",
+      "id": 688681,
+      "project_id": 227853,
+      "order": 2
+    },
+    {
+      "name": "Customer Request",
+      "color": "#4e9a06",
+      "id": 700921,
+      "project_id": 227853,
+      "order": 3
+    },
+    {
+      "name": "Question",
+      "color": "#888a85",
+      "id": 688680,
+      "project_id": 227853,
+      "order": 4
+    }
+  ],
+  "total_activity": 3204,
+  "is_featured": false,
+  "total_fans": 0,
+  "is_contact_activated": true,
+  "total_fans_last_week": 0,
+  "i_am_member": true,
+  "total_watchers": 12,
+  "logo_big_url": null,
+  "total_story_points": 50,
+  "creation_template": 1
+}

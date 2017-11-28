@@ -1,0 +1,77 @@
+.task-new {
+	color : #999999;
+	position:relative;
+}
+.task-new:before {
+	content : 'new';
+	background:#999999;
+	color:white;
+	padding:1px 6px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border-bottom-left-radius: 4px;
+}
+
+.task-in-progress {
+	color : #729fcf;
+}
+.task-in-progress:before {
+	content : 'in progress';
+	background:#729fcf;
+	color:white;
+	padding:1px 6px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border-bottom-left-radius: 4px;
+}
+
+.task-for-ci-testing {
+	color :#3465a4;
+}
+.task-for-ci-testing:before {
+	content : 'for ci testing';
+	background:#3465a4;
+	color:white;
+	padding:1px 6px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border-bottom-left-radius: 4px;
+}
+
+.task-for-qa-testing {
+	color : #ffcc00;
+}
+.task-for-qa-testing:before {
+	content : 'for qa testing';
+	background:#ffcc00;
+	color:white;
+	padding:1px 6px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border-bottom-left-radius: 4px;
+}
+
+.task-for-po-verification {
+	color : #8ae234;
+}
+.task-for-po-verification:before {
+	content : 'for po testing';
+	background:#8ae234;
+	color:white;
+	padding:1px 6px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	border-bottom-left-radius: 4px;
+}
+
+.task-done {
+	color : #669900;
+}
+.task-deferred {
+	color : #4e9a06;
+}
