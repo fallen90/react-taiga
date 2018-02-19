@@ -1,5 +1,4 @@
 import React from "react";
-import { propTypes, defaultProps } from "react-props-decorators";
 import {
 	Form,
 	FormGroup,

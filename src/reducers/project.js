@@ -29,11 +29,11 @@ export default function project(state = initialState, action) {
 
     switch (action.type) {
     	/* Asyncs */
-        case 'FETCH_PROJECT':
+        case FETCH_PROJECT:
             return { ...state, fetching: true };
-        case 'FETCH_PROJECT_REJECTED':
+        case FETCH_PROJECT_REJECTED:
             return { ...state, fetching: false, rejected: true, error: action.payload }
-        case 'FETCH_PROJECT_FULFILLED':
+        case FETCH_PROJECT_FULFILLED:
             return {
                 ...state,
                 fetching: false,

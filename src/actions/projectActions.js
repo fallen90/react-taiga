@@ -10,6 +10,9 @@ export const FETCH_PROJECT = "FETCH_PROJECT";
 export const FETCH_PROJECT_REJECTED = "FETCH_PROJECT_REJECTED";
 export const FETCH_PROJECT_FULFILLED = "FETCH_PROJECT_FULFILLED";
 
+export const FETCH_MILESTONES = "FETCH_MILESTONES";
+export const FETCH_MILESTONES_REJECTED = "FETCH_MILESTONES_REJECTED";
+export const FETCH_MILESTONES_FULFILLED = "FETCH_MILESTONES_FULFILLED";
 
 /* Action Creators */
 
@@ -57,7 +60,7 @@ export function fetchProject(slug){
 					});
 				})
 				.catch(err => {
-					dispatch({ type: FETCH_TASKS_REJECTED, payload: err.response.data });
+					dispatch({ type: FETCH_PROJECT_REJECTED, payload: err.response.data });
 				});
 		} else {
 			//USER not logged in
@@ -66,6 +69,23 @@ export function fetchProject(slug){
 	};
 }
 
+export function fetchMilestones(){
+	return (dispatch, getState) => {
+		dispatch({ type: FETCH_MILESTONES });
+
+		const { project } = getState();
+		
+		if (project.fetched) {
+			dispatch({
+				type: FETCH_MILESTONES_FULFILLED,
+				payload: project.project.milestones
+			});
+		} else {
+			//USER not logged in
+			dispatch({ type : 'USER_LOGOUT' });
+		}
+	};
+}
 
 export function selectMilestone(id){
 	return (dispatch) => {

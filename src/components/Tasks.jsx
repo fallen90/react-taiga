@@ -16,7 +16,7 @@ export default class Tasks extends React.Component {
 
 	render() {
 		let taskList = null;
-		const { rejected, tasks, fetching, fetched, error, fetchTasks} = this.props;
+		const { rejected, tasks, fetching, error, fetchTasks} = this.props;
 
 		if(!rejected){
 			taskList = tasks.map(task => (

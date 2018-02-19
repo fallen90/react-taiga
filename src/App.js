@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import Project from "./components/Project";
 import Login from "./components/Login";
 
-import { fetchTasks, fetchProject, selectMilestone} from "./actions/projectActions";
+import { fetchTasks, fetchProject, selectMilestone, fetchMilestones } from "./actions/projectActions";
 import { login } from "./actions/userActions";
 
 import "./App.css";
@@ -14,7 +14,8 @@ import "./App.css";
 		return {
 			taiga : {
 				project: store.project,
-				tasks : store.tasks
+				tasks : store.tasks,
+				milestones : store.milestones
 			},
 			user : store.user
 		};
@@ -30,6 +31,9 @@ import "./App.css";
 				},
 				fetchProject: (slug) => {
 					dispatch(fetchProject(slug));
+				},
+				fetchMilestones: (slug) => {
+					dispatch(fetchMilestones(slug));
 				},
 				login : (username, password) => {
 					dispatch(login(username, password));
